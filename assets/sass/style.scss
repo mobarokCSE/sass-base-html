@@ -1,0 +1,57 @@
+/*!
+Template Name: Kushiara Travels LTD.
+Template URI: 
+Author: thetork
+Author URI: 
+Description: Description
+Version: 1.0.0
+Text Domain: Kushiara Travels LTD.
+Tags: Travels.
+
+*/
+
+
+
+
+/*=====================================================================*/
+
+@charset "UTF-8";
+
+// 1. Abstracts
+@import 'abstracts/extend',
+'abstracts/functions',
+'abstracts/mixins',
+'abstracts/variables';
+
+
+// 2. Base
+@import 'base/animations',
+'base/common',
+'base/fonts',
+'base/helpers',
+'base/typography';
+
+
+// 3. components
+
+
+// 4. layout
+@import 'layout/footer',
+'layout/header';
+
+
+// 5. pages
+@import 'pages/home';
+
+// 6. themes
+@import 'themes/theme';
+
+// 7. vendors
+@import 'vendors/rfs',
+'vendors/normalize',
+'vendors/nice-select';
+
+
+
+
+
